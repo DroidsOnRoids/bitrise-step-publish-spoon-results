@@ -41,7 +41,7 @@ toolkit:
 
 
 inputs:
-  - remote_url
+  - remote_url:
     opts:
       title: "Remote URL"
       is_expand: true
