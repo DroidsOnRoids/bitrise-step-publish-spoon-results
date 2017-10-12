@@ -34,15 +34,16 @@ deps:
   apt_get:
   - name: jq
 
-
 toolkit:
   bash:
     entry_file: step.sh
-
 
 inputs:
   - remote_url:
     opts:
       title: "Remote URL"
+      summary: "Git remote URL of the destination repo"
+      description: |
+        Test tesults will be pushed to this repo.      
       is_expand: true
       is_required: true
